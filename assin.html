@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Pizza website">
+      <meta name="robots" content="noindex, nofollow">
+      <title> assignment 2</title>
+      <!--add our font--> 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+      <!--add our css-->
+      <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href=".index.html"> <img src="./img/a1c404bea49c0143058bc4dd9da79d33.jpg" alt="header logo"></a>
+            </div>
+            <nav>
+                <menu>
+                    <li><a href="#"> Home</a></li>
+                    <li><a href="#"> About</a></li>
+                </menu>
+            </nav>
+        </header>
+        <section class="lesson-masthead">
+        <h1> SINCE 1989 </h1>
+        </section>
+        <main>
+            <!-- 2 column row-->
+            <section>
+                <!-- text container-->
+                <div>
+                    <h3>Chefs special</h3>
+                    <p> Chicago Deep-Dish Pizza
+                        Origin: Chicago, USA
+                        Characteristics: Thick, buttery crust that lines a deep pan, filled with cheese, toppings, and chunky tomato sauce on top.</p>
+                </div>
+                <!--image container-->
+                <div>
+                    <img src="./img/istockphoto-182148711-612x612.jpg" alt="image 1">
+                </div>
+            </section>
+            <!-- 2 coumn-->
+            <section>
+                <!-- imahe container-->
+                <div>
+                    <img src="./img/shutterstock_1253661532-750x406 (1).jpg" alt="image 2">
+                </div>
+                <!-- text container-->
+                <div>
+                    <h3>Best Seller</h3>
+                    <p>Sicilian Pizza
+                        Origin: Sicily, Italy
+                        Characteristics: Thick, rectangular pizza with a fluffy, bread-like crust. Often topped with tomato sauce, onions, anchovies, herbs, and sometimes cheese.</p>
+                </div>
+            </section>
+            <!-- 6 column image row-->
+        </main>
+        <aside>
+            <article>
+                <figure>
+                    <img src="./img/Slide_6_Pizza_GettyImages-621463552.width-880.jpg" alt="image 5">
+                    <figcaption> ### Welcome to Andikanna's Pizza!
+
+                        At Andikanna's Pizza, we believe that every slice tells a story. Nestled in the heart of Barrie , our cozy pizzeria is dedicated to serving up delicious, hand-crafted pizzas that bring people together.
+                        
+                       Our Passion for Pizza
+                        
+                        Our journey began with a simple love for great pizza. We've combined time-honored traditions with fresh, high-quality ingredients to create a menu that delights every palate. From the classic and comforting flavors of a Margherita to the bold and innovative combinations of our signature gourmet pizzas, we have something for everyone.
+                        
+                         Fresh Ingredients, Authentic Taste
+                        
+                        We pride ourselves on using only the finest ingredients. Our dough is made fresh daily, our sauces are crafted from vine-ripened tomatoes, and our toppings are sourced from the best local and imported producers. Each pizza is made to order and baked to perfection in our state-of-the-art ovens.
+                        
+                        A Slice of Community
+                        
+                        </figcaption>
+                </figure>
+            </article>
+        </aside>
+        <footer>
+            <div>
+                <a href="index.html"><img src="./img/a1c404bea49c0143058bc4dd9da79d33.jpg" alt="footer logo"></a>
+            </div>
+            <div>
+                <h6> Contact us</h6>
+                <p> Contact us for bulk order 
+
+                </p>
+            </div>
+            <div>
+                <form method="post" action="somefile" enctype="multipart/form-data">
+                    <input type="text" placeholder="Full Name" required>
+                    <br>
+                    <input type="email" placeholder="Your Email" required>
+                    <br>
+                    <textarea placeholder="Your Message"></textarea>
+                    <br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+            <form action="somephpfile" method="post" enctype="multipart/form-data">
+                <div>
+                    <label> Choose One</label>
+                    <br>
+                    <input type="radio" id="marg" name="fav_lang" value="marg">
+                    <label for="marg">Chicago Deep-Dish Pizza</label>
+                    <br>
+                    <input type="radio" id="pep" name="fav_lang" value="pep">
+                    <label for="pep">Sicilian Pizza</label>
+                    <br>
+                    <input type="radio" id="haw" name="fav_lang" value="haw">
+                    <label for="haw">Hawaiian Pizza</label>
+                    <br>
+                    <input type="radio" id="ital" name="fav_lang" value="ital">
+                    <label for="ital">Italian Pizza</label>
+                    <br>
+                    <input type="radio" id="bbq" name="fav_lang" value="bbq">
+                    <label for="bbq">BBQ Chicken Pizza</label>
+                    <br>
+                </div>
+                <div>
+                    <label for="quantity">Choose the number of pizzas</label>
+                    <input type="number" id="quantity" name="quantity" min="1" required>
+                </div>
+                <div> 
+                    <!-- choosing topping using label-->
+                    <label>Choose toppings:</label>
+                    <br>
+                    <input type="checkbox" id="olive" name="toppings" value="olive">
+                    <label for="pepperoni">Olive</label>
+                    <br>
+                    <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                    <br>
+                    <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                    <label for="sausage">Sausage</label>
+                    <br>
+                    <input type="checkbox" id="cheese" name="toppings" value="cheese">
+                    <label for="sausage">Cheese</label>
+                    <br>
+                    <input type="checkbox" id="bellpepper" name="toppings" value="bellpepper">
+                    <label for="bellpepper">Bell Pepper</label>
+                    
+                    <br>
+                </div>
+            </form>
+        </div>
+        <section>
+            <form action="somephpfile" method="post" enctype="multipart/form-data">
+                <div>
+                    <h3>Place Order Here!</h3>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label>Phone number</label>
+                    <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <input type="submit" value="Send">
+                    <br>
+                    <label for="address">Enter your Addres:</label>
+                    <input type="text" id="address" name="address">
+                    <br>
+                
+                </div>
+                <div>
+                    <input type="submit" value="Place Order">
+                </div>
+            </form>   
+        </section>
+        </footer>
+    </body>
+</html>
